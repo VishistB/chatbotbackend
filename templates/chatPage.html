@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatpage</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/chatPage.css' %}">
+</head>
+<body>
+    <div class="bodywrap">
+        <div class="chatbox">
+            <div class="messagingwrap">
+                <div class="msgarea">
+                    <p class="msgpara">
+                    {{resp}} 
+                    </p>
+                </div>
+                <form method="POST" class="textnbtn" autocomplete="off" novalidate>
+                    {% csrf_token %}
+                    <input class="messagebox" type="text" name="prompt" autocomplete="off">
+                    <button class="sendbtn" name="text_button">SEND</button>
+                </form>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
