@@ -3,11 +3,19 @@
     padding: 0;
     margin: 0;
 }
+
 .bodywrap{
     /* background: rgba(29, 24, 45, 1); */
-    background: rgba(32,26,48);
+    background:linear-gradient(90deg,rgba(32,26,48,0.9),rgba(32,26,48,0.9)), url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
     height: 100vh;
     width: 100vw;
+    
+}
+.overlay{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
