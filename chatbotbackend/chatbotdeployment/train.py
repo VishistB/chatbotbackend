@@ -125,6 +125,6 @@ data = {
 }
 
 FILE = "data.pth"
-torch.save(data, FILE)
+torch.save(data, os.path.join(current_dir, FILE))
 
 print(f'training complete. file saved to {FILE}')

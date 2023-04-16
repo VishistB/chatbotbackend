@@ -59,27 +59,27 @@
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "links",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How can I get malware from clicking links",
+        "How safe are clicking links in the email?",
+        "I clicked a link, is my browser safe?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Clicking links about which you have no ideas can be risky as there are frameworks which allow attackers to hijack browsers",
+        "Sometimes clicking the link itself might not be harmful (not necessarily) but entering sensitive data on such sites can be very dangerous"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "Phishing",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What is Phishing",
+        "Tell me about phishing",
+        "Is Phishing dangerous"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Phishing is a form of cyber attack where the attacker tries to steal user data by taking them to a site which poses like a legitimate site but isn't. This can compromise essential user data.",
+        "Phishing is a form of social engineering where attackers deceive people into revealing sensitive information or installing malware such as ransomware. It is a very common method which hackers use to gain access to systems or browsers."
       ]
     }
   ]
